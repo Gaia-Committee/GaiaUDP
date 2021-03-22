@@ -50,6 +50,12 @@ if(CMAKE_BUILD_TYPE STREQUAL Debug)
 endif()
 
 #==============================
+# External Modules
+#==============================
+
+add_subdirectory("ExternalModules/GaiaExceptions")
+
+#==============================
 # Dependencies
 #==============================
 

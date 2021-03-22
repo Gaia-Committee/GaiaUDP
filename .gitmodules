@@ -1,0 +1,3 @@
+[submodule "ExternalModules/GaiaExceptions"]
+	path = ExternalModules/GaiaExceptions
+	url = https://github.com/RoboPioneers/GaiaExceptions.git
