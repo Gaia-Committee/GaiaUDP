@@ -78,6 +78,8 @@ endif()
 
 # Exception module of Gaia.
 target_link_libraries(${TARGET_NAME} PUBLIC "GaiaExceptions")
+# Byte utility module of Gaia
+target_link_libraries(${TARGET_NAME} PUBLIC "GaiaByteUtility")
 
 #==============================
 # Dependencies
