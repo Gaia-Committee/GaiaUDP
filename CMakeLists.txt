@@ -18,3 +18,8 @@ endif()
 #==============================
 
 add_subdirectory("GaiaUDP")
+
+if (WITH_TEST)
+    add_subdirectory("SenderTest")
+    add_subdirectory("ReceiverTest")
+endif()
