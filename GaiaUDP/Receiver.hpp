@@ -73,7 +73,7 @@ namespace Gaia::UDP
 		 * @details
 		 *  After this function is called, incoming data will be stored in buffer,
 		 *  which means transmitted data before this function call will not be received.
-		  * This function will return immediately when Receiver got the specified amount of data.
+		 *  This function will return immediately when Receiver got the specified amount of data.
 		 */
 		std::tuple<Endpoint, ByteUtility::BytesBuffer> Receive(std::size_t length);
 	};
